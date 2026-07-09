@@ -1,0 +1,21 @@
+{
+  "stage_id": "1013R_R223P_1_ART_CLASSROOM_PRACTICE_RESEARCH_INTAKE_AND_GAP_ANALYSIS",
+  "registry_id": "R223P_1_demonstration_type_candidate_registry",
+  "status": "candidate_registry_only",
+  "types": [
+    {"type_id": "complete", "cn_name": "完整示范", "solves": "学生完全不知道从哪里开始", "must_follow_with": ["micro_practice_type", "transition_to_formal_creation"], "risk": "容易替代学生构思"},
+    {"type_id": "partial", "cn_name": "局部示范", "solves": "某一处反复出错", "must_follow_with": ["micro_practice_type"], "risk": "示范点不清会变成泛讲"},
+    {"type_id": "drafting", "cn_name": "起稿示范", "solves": "不会落笔、比例或位置失衡", "must_follow_with": ["local_sketch", "thumbnail"], "risk": "全班照抄同一构图"},
+    {"type_id": "composition", "cn_name": "构图示范", "solves": "主体不明、画面太散或太挤", "must_follow_with": ["mini_layout"], "risk": "只讲美观，不服务主题"},
+    {"type_id": "tool_use", "cn_name": "工具材料示范", "solves": "不会拿、压、粘、调、清洁", "must_follow_with": ["technique_try", "material_sample"], "risk": "忽略安全和清理"},
+    {"type_id": "technique", "cn_name": "技法示范", "solves": "知道画什么但不会表现", "must_follow_with": ["single_stroke", "single_print", "color_mix"], "risk": "只看不练"},
+    {"type_id": "difficulty_focus", "cn_name": "重难点突破示范", "solves": "课堂卡点集中", "must_follow_with": ["micro_practice_type"], "risk": "难点过多导致失焦"},
+    {"type_id": "error_repair", "cn_name": "错误修补示范", "solves": "学生出错后不知道怎么救回", "must_follow_with": ["revision_trace"], "risk": "教师代改"},
+    {"type_id": "compare_demo", "cn_name": "对比式示范", "solves": "学生分不清效果差异", "must_follow_with": ["comparison_judgment"], "risk": "变成优劣排名"},
+    {"type_id": "slow_motion", "cn_name": "慢动作示范", "solves": "动作太快、低年级看不清", "must_follow_with": ["step_keypoints"], "risk": "拖慢节奏"},
+    {"type_id": "semi_finished", "cn_name": "半成品示范", "solves": "只见结果，不懂中间层次", "must_follow_with": ["checkpoint"], "risk": "半成品被当作唯一标准"},
+    {"type_id": "video", "cn_name": "视频/微课示范", "solves": "需要暂停、回放或动态分解", "must_follow_with": ["micro_practice_type"], "risk": "只播视频不操作"},
+    {"type_id": "reverse_from_student_work", "cn_name": "学生作品反向示范", "solves": "利用真实问题建立判断标准", "must_follow_with": ["revision_trace"], "risk": "公开展示伤害学生体验"}
+  ],
+  "candidate_rule": "Any event with demonstration_type must link to micro_practice_type or transition_to_formal_creation."
+}
