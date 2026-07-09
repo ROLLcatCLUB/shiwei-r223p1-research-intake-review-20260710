@@ -1,0 +1,18 @@
+{
+  "stage_id": "1013R_R223P_1_ART_CLASSROOM_PRACTICE_RESEARCH_INTAKE_AND_GAP_ANALYSIS",
+  "registry_id": "R223P_1_appreciation_scaffold_candidate_registry",
+  "status": "candidate_registry_only",
+  "types": [
+    {"type_id": "masterpiece", "cn_name": "大师作品", "scaffold_goal": "建立审美标准、观察路径和形式语言", "required_output": "关键词或方法提炼", "risk": "教师独讲"},
+    {"type_id": "peer_work", "cn_name": "同龄作品", "scaffold_goal": "降低心理门槛，提供可达范例", "required_output": "借鉴点记录", "risk": "照抄同龄样例"},
+    {"type_id": "teacher_sample", "cn_name": "教师范作", "scaffold_goal": "对齐任务预期和质量底线", "required_output": "步骤或可学点提取", "risk": "成为唯一标准答案"},
+    {"type_id": "life_photo", "cn_name": "生活图片", "scaffold_goal": "建立真实情境和观察对象", "required_output": "生活观察卡", "risk": "生活图只当装饰"},
+    {"type_id": "folk_art", "cn_name": "民间艺术作品", "scaffold_goal": "支撑文化理解、纹样、工艺和寓意", "required_output": "文化元素或纹样提取", "risk": "只做手工不讲文化"},
+    {"type_id": "step_diagram", "cn_name": "教材步骤图 / 半成品图", "scaffold_goal": "显性化过程和阶段检查点", "required_output": "步骤摘要或进度定位", "risk": "机械照步骤"},
+    {"type_id": "museum_resource", "cn_name": "展馆 / 数字资源", "scaffold_goal": "沉浸式输入和观看路径", "required_output": "导学案输出", "risk": "看展与创作脱节"},
+    {"type_id": "student_half_done", "cn_name": "学生半成品", "scaffold_goal": "中途调控和二次修改", "required_output": "修改计划", "risk": "评价对象选择不当"},
+    {"type_id": "right_wrong_compare", "cn_name": "正误对照作品", "scaffold_goal": "突破重难点和建立判断依据", "required_output": "正误理由", "risk": "羞辱式比较"},
+    {"type_id": "before_after_revision", "cn_name": "前后修改作品", "scaffold_goal": "引导反思和二改", "required_output": "修改说明", "risk": "只看结果不看过程"}
+  ],
+  "candidate_rule": "Any event with appreciation_scaffold_type must link to observation_prompt and expected_student_responses."
+}
