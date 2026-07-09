@@ -1,0 +1,44 @@
+{
+  "stage_id": "1013R_R223P_1_ART_CLASSROOM_PRACTICE_RESEARCH_INTAKE_AND_GAP_ANALYSIS",
+  "package_type": "research_intake_and_gap_analysis_review",
+  "created_at": "2026-07-10",
+  "decision": "PASS_CONTINUE_TO_R223P_2_PATTERN_REGISTRY",
+  "boundary": {
+    "formal_ui": false,
+    "r97b_modified": false,
+    "frontend_backend_modified": false,
+    "runtime_connected": false,
+    "provider_model_connected": false,
+    "prompt_modified": false,
+    "database_written": false,
+    "existing_teacher_drafts_modified": false,
+    "schema_v0_2_published": false,
+    "formal_apply": false
+  },
+  "files": [
+    "R223P_1_local_asset_inventory.md",
+    "R223P_1_research_result_summary.md",
+    "R223P_1_research_source_comparison.md",
+    "R223P_1_practice_pattern_candidate_registry.json",
+    "R223P_1_demonstration_type_candidate_registry.json",
+    "R223P_1_micro_practice_type_candidate_registry.json",
+    "R223P_1_appreciation_scaffold_candidate_registry.json",
+    "R223P_1_pattern_to_screen_component_evidence_mapping.md",
+    "R223P_1_gap_analysis_against_R223M_P5_v0_1.md",
+    "R223P_1_recommended_schema_delta_for_v0_2.md",
+    "R223P_1_cross_subject_core_and_art_adapter_note.md",
+    "R223P_1_unit_lesson_practice_intensity_router_note.md",
+    "R223P_1_integration_decision_report.md",
+    "validate_1013R_R223P_1_research_intake.py",
+    "validate_1013R_R223P_1_research_intake_result.json",
+    "PACKAGE_MANIFEST.json",
+    "README_FOR_GPT_REVIEW.md"
+  ],
+  "upstream_assets": {
+    "research_archive": "docs/foundation/research/1013R_R223_ART_CLASSROOM_PRACTICE_MODES_RESEARCH/",
+    "r223m_p5": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R223M_P5_GOLDEN_STANDARD_LOCK_PACKAGE/",
+    "r223n_p3_p1": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R223N_P3_P1_LIGHT_SAMPLE_FLAVOR_AND_LAYOUT_POLISH/",
+    "r223o_p1": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R223O_P1_COLOR_MANUSCRIPT_STRUCTURE_RECOVERY/",
+    "r222d_p1": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R222D_P1_COMPONENT_PEDAGOGICAL_HARDENING/"
+  }
+}
