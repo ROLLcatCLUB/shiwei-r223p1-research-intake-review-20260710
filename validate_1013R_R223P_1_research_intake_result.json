@@ -1,0 +1,293 @@
+{
+  "passed": true,
+  "check_count": 71,
+  "failed": 0,
+  "failures": [],
+  "decision": "PASS_CONTINUE_TO_R223P_2_PATTERN_REGISTRY",
+  "checks": [
+    {
+      "check": "required_file:R223P_1_local_asset_inventory.md",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223P_1_research_result_summary.md",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223P_1_research_source_comparison.md",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223P_1_practice_pattern_candidate_registry.json",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223P_1_demonstration_type_candidate_registry.json",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223P_1_micro_practice_type_candidate_registry.json",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223P_1_appreciation_scaffold_candidate_registry.json",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223P_1_pattern_to_screen_component_evidence_mapping.md",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223P_1_gap_analysis_against_R223M_P5_v0_1.md",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223P_1_recommended_schema_delta_for_v0_2.md",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223P_1_cross_subject_core_and_art_adapter_note.md",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223P_1_unit_lesson_practice_intensity_router_note.md",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223P_1_integration_decision_report.md",
+      "passed": true
+    },
+    {
+      "check": "required_file:PACKAGE_MANIFEST.json",
+      "passed": true
+    },
+    {
+      "check": "required_file:README_FOR_GPT_REVIEW.md",
+      "passed": true
+    },
+    {
+      "check": "manifest_stage_id",
+      "passed": true
+    },
+    {
+      "check": "manifest_decision",
+      "passed": true
+    },
+    {
+      "check": "boundary:formal_ui",
+      "passed": true
+    },
+    {
+      "check": "boundary:r97b_modified",
+      "passed": true
+    },
+    {
+      "check": "boundary:frontend_backend_modified",
+      "passed": true
+    },
+    {
+      "check": "boundary:runtime_connected",
+      "passed": true
+    },
+    {
+      "check": "boundary:provider_model_connected",
+      "passed": true
+    },
+    {
+      "check": "boundary:prompt_modified",
+      "passed": true
+    },
+    {
+      "check": "boundary:database_written",
+      "passed": true
+    },
+    {
+      "check": "boundary:existing_teacher_drafts_modified",
+      "passed": true
+    },
+    {
+      "check": "boundary:schema_v0_2_published",
+      "passed": true
+    },
+    {
+      "check": "boundary:formal_apply",
+      "passed": true
+    },
+    {
+      "check": "pattern:observation_discovery",
+      "passed": true
+    },
+    {
+      "check": "pattern:comparison_judgment",
+      "passed": true
+    },
+    {
+      "check": "pattern:artwork_appreciation",
+      "passed": true
+    },
+    {
+      "check": "pattern:teacher_demonstration",
+      "passed": true
+    },
+    {
+      "check": "pattern:micro_practice",
+      "passed": true
+    },
+    {
+      "check": "pattern:material_experiment",
+      "passed": true
+    },
+    {
+      "check": "pattern:idea_generation",
+      "passed": true
+    },
+    {
+      "check": "pattern:creation_progression",
+      "passed": true
+    },
+    {
+      "check": "pattern:showcase_evaluation",
+      "passed": true
+    },
+    {
+      "check": "pattern:closure_transfer",
+      "passed": true
+    },
+    {
+      "check": "pattern_count_at_least_10",
+      "passed": true
+    },
+    {
+      "check": "candidate_registry:R223P_1_demonstration_type_candidate_registry.json",
+      "passed": true
+    },
+    {
+      "check": "candidate_registry:R223P_1_micro_practice_type_candidate_registry.json",
+      "passed": true
+    },
+    {
+      "check": "candidate_registry:R223P_1_appreciation_scaffold_candidate_registry.json",
+      "passed": true
+    },
+    {
+      "check": "schema_delta_term:practice_pattern_type",
+      "passed": true
+    },
+    {
+      "check": "schema_delta_term:demonstration_type",
+      "passed": true
+    },
+    {
+      "check": "schema_delta_term:micro_practice_type",
+      "passed": true
+    },
+    {
+      "check": "schema_delta_term:appreciation_scaffold_type",
+      "passed": true
+    },
+    {
+      "check": "schema_delta_term:creation_phase",
+      "passed": true
+    },
+    {
+      "check": "schema_delta_term:student_practice_output",
+      "passed": true
+    },
+    {
+      "check": "schema_delta_term:aesthetic_language_focus",
+      "passed": true
+    },
+    {
+      "check": "schema_delta_term:material_safety_or_management",
+      "passed": true
+    },
+    {
+      "check": "schema_delta_term:time_control_point",
+      "passed": true
+    },
+    {
+      "check": "schema_delta_term:transition_to_formal_creation",
+      "passed": true
+    },
+    {
+      "check": "schema_delta_term:unit_phase_role",
+      "passed": true
+    },
+    {
+      "check": "schema_delta_term:practice_intensity",
+      "passed": true
+    },
+    {
+      "check": "cross_subject_term:general_pedagogy_core",
+      "passed": true
+    },
+    {
+      "check": "cross_subject_term:art_subject_adapter",
+      "passed": true
+    },
+    {
+      "check": "cross_subject_term:科学",
+      "passed": true
+    },
+    {
+      "check": "cross_subject_term:数学",
+      "passed": true
+    },
+    {
+      "check": "cross_subject_term:语文",
+      "passed": true
+    },
+    {
+      "check": "router_term:unit_phase_role",
+      "passed": true
+    },
+    {
+      "check": "router_term:practice_intensity",
+      "passed": true
+    },
+    {
+      "check": "router_term:student_work_time_ratio",
+      "passed": true
+    },
+    {
+      "check": "router_term:teacher_support_density",
+      "passed": true
+    },
+    {
+      "check": "decision_pass_continue",
+      "passed": true
+    },
+    {
+      "check": "v02_not_published",
+      "passed": true
+    },
+    {
+      "check": "forbidden_boundary:r97b_modified\": true",
+      "passed": true
+    },
+    {
+      "check": "forbidden_boundary:formal_ui\": true",
+      "passed": true
+    },
+    {
+      "check": "forbidden_boundary:runtime_connected\": true",
+      "passed": true
+    },
+    {
+      "check": "forbidden_boundary:provider_model_connected\": true",
+      "passed": true
+    },
+    {
+      "check": "forbidden_boundary:database_written\": true",
+      "passed": true
+    },
+    {
+      "check": "forbidden_boundary:schema_v0_2_published\": true",
+      "passed": true
+    },
+    {
+      "check": "forbidden_boundary:formal_apply\": true",
+      "passed": true
+    }
+  ]
+}
