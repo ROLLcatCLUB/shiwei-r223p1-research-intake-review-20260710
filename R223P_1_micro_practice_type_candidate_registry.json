@@ -1,0 +1,20 @@
+{
+  "stage_id": "1013R_R223P_1_ART_CLASSROOM_PRACTICE_RESEARCH_INTAKE_AND_GAP_ANALYSIS",
+  "registry_id": "R223P_1_micro_practice_type_candidate_registry",
+  "status": "candidate_registry_only",
+  "types": [
+    {"type_id": "single_stroke", "cn_name": "试画一笔", "student_output": "线条条带或局部练习", "serve_final_work": "正式作品的线条或笔触", "time_cap": "1-3 minutes"},
+    {"type_id": "single_print", "cn_name": "试印一次", "student_output": "印痕小样", "serve_final_work": "正式纹样或肌理效果", "time_cap": "3-5 minutes"},
+    {"type_id": "color_mix", "cn_name": "调一小块色", "student_output": "色卡或命名记录", "serve_final_work": "正式作品色彩方案", "time_cap": "3-6 minutes"},
+    {"type_id": "cut_pattern", "cn_name": "剪一个纹样", "student_output": "纹样小样", "serve_final_work": "边框、主体或装饰局部", "time_cap": "4-6 minutes"},
+    {"type_id": "mini_layout", "cn_name": "摆一个构图", "student_output": "摆拍或缩略构图", "serve_final_work": "正式画面组织", "time_cap": "3-5 minutes"},
+    {"type_id": "local_sketch", "cn_name": "画一个局部草图", "student_output": "局部草图", "serve_final_work": "主题中的关键局部", "time_cap": "3-6 minutes"},
+    {"type_id": "thumbnail", "cn_name": "画多个缩略图", "student_output": "2-3 个缩略方案", "serve_final_work": "构图方案选择", "time_cap": "4-8 minutes"},
+    {"type_id": "material_sample", "cn_name": "做一个材料小样", "student_output": "材料小样和选择理由", "serve_final_work": "正式材料或工艺路径", "time_cap": "4-8 minutes"},
+    {"type_id": "structure_test", "cn_name": "做一个结构小试", "student_output": "结构测试结果", "serve_final_work": "成品稳定性", "time_cap": "4-8 minutes"},
+    {"type_id": "technique_try", "cn_name": "做一个技法尝试", "student_output": "技法试错照片或练习纸", "serve_final_work": "正式技法应用", "time_cap": "3-6 minutes"},
+    {"type_id": "combination_plan", "cn_name": "做一个组合方案", "student_output": "方案表或组合草图", "serve_final_work": "设计应用作品", "time_cap": "5-8 minutes"},
+    {"type_id": "design_reason", "cn_name": "说一个设计理由", "student_output": "口头理由或句式记录", "serve_final_work": "展示说明和评价证据", "time_cap": "1-3 minutes"}
+  ],
+  "candidate_rule": "Any micro_practice_type must define serve_final_work or transition_to_formal_creation."
+}
